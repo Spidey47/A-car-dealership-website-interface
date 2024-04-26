@@ -1,0 +1,108 @@
+body{
+    background-image: url(../img/IMG-20231128-WA0020.jpg);
+    background-size: cover;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.heading{
+    /* background-color: black; */
+    text-align: center;
+    vertical-align: middle;
+    line-height: px;
+}
+
+.vertical_line{
+    /* display: inline-block;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    border-top: 1px solid white;
+    padding-bottom: inherit; */
+    display: block;
+    border-top: 1px solid white;
+}
+
+form{
+    background-color: black;
+    /* background-image: url(../SIGN-UP/pictures/IMG-20231128-WA0020.jpg); */
+    width: 500px;
+    border: 5px solid #d4af37;
+    padding: 30px;
+    /* background: none; */
+    /* background: black; */
+    border-radius: 15px;
+    /* box-shadow: 5px 5px #555; */
+}
+
+h2{
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+input{
+    /* display: block;
+    border: 2px solid black;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px; */
+    display: block;
+    background-color: black;
+    border: 2px solid white;
+    width: 95%;
+    padding: 12px;
+    margin: 1px ;
+    border-radius: 5px;
+    color: white;
+    
+
+}
+
+label{
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+    /* color: #888;
+    font-size: 18px;
+    padding: 10px; */
+    
+}
+
+.btn.btn-outline-warning{
+    float: right;
+    background: black;
+    padding: 10px 10px;
+    color: #d4af37;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+    border: 1px solid #d4af37
+}
+
+.btn.btn-outline-warning:hover{
+    background-color: #d4af37;
+    color: black;
+}
+
+::placeholder{
+    color: white;
+    font-size: small;
+}
+
+::-ms-reveal {
+    filter: invert(100%);
+  }
+
+.form-text{
+    color: white;
+}

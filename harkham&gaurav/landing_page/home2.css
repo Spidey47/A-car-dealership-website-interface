@@ -1,0 +1,170 @@
+.nav-link{
+    padding: 15px;
+    margin-left: 20px;
+    color: #d4af37;
+}
+
+.button_placement{
+    padding-left: 400px;
+}
+
+/* .navbar-toggler{
+    background-color: white ;
+} */
+
+.nav-link:hover{
+    color: white;
+}
+
+.navbar-brand{
+    color: #d4af37;
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+
+.navbar .navbar-nav .nav-but{
+    margin: 10px;
+}
+/* 
+@media (mad-width: 991px){
+    .collapse{
+        backdrop-filter: blur(10px);
+    }
+} */
+ 
+.navbar-toggler{
+    background-color: #d4af37;
+} 
+ 
+.hero{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.hero .text{
+    width: 95%;
+    margin: auto;
+    height: 60%;
+}
+
+.video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9){
+    .video{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9){
+    .video{
+        width: auto;
+        height: 100%;
+    }
+}
+
+.hero .text h4{
+    font-size: 40px;
+    color: black;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.hero .text h1{
+    color: black;
+    font-size: 65px;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-bottom: 30px;
+}
+
+.hero .text h1 span{
+    color:#dd0707 ;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.hero .text p{
+    color: #dd0707;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.hero .text .btn{
+    padding: 10px 30px;
+    background-color: #dd0707 ;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    border-radius: 30px;
+    border: 2px solid #dd0707;
+    transition: 0.3s;
+}
+
+.hero .text .btn:hover{
+    background-color: transparent;
+}
+
+footer{
+    background-color: transparent;
+}
+
+.footerContainer{
+    width: 100%;
+    padding: 60px 10px 8px;
+}
+
+.socialIcons{
+    display: inline-block;
+    position: absolute;
+    bottom: 30px;
+    right: 40px;
+}
+
+.socialIcons a{
+    text-decoration:none;
+    padding: 20px;
+    margin: 10px;
+}
+ 
+.socialIcons a i{
+    font-size: 2em;
+    color: #dd0707;
+    opacity: 0.9;
+}
+
+.socialIcons a i:hover{
+    color: white;
+    transition: 0.5s;
+}
+
+.footerNav ul li a{
+    color: white;
+    -webkit-text-stroke: 2px transparent;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.footerBottom{
+    text-align: center;
+}
+
+.footerBottom p{
+    color: white;
+    font-size: 5px;
+}
+
+.designer{
+    text-transform: uppercase;
+
+}
